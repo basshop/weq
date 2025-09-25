@@ -49,7 +49,7 @@ export default function Navbar() {
           <li className="flex items-center space-x-1 text-sm text-gray-700 hover:text-[#17aeff] font-medium">
             <Link href="/" className="flex items-center space-x-1">
               <Home className="h-4 w-4" />
-              <span>หน้าหลักมั้ง</span>
+              <span>หน้าหลัก</span>
             </Link>
           </li>
 
