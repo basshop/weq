@@ -12,7 +12,7 @@
 import mysql from "mysql2/promise";
 
 export const db = mysql.createPool({
-  host: process.env.MYSQL_HOST || "localhost",   // เซิร์ฟเวอร์ MySQL
+  host: process.env.MYSQL_HOST || "103.30.127.7",   // เซิร์ฟเวอร์ MySQL
   user: process.env.MYSQL_USER || "betashif_py2",        // User MySQL
   password: process.env.MYSQL_PASSWORD || "pdXXFwrDDJgHwWV6AXmA",    // รหัสผ่าน
   database: process.env.MYSQL_DATABASE || "betashif_py2" // ชื่อฐานข้อมูล
